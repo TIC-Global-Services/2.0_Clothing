@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  --primary:#84CECB;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-footerBg: #0B0B0B;
+}
