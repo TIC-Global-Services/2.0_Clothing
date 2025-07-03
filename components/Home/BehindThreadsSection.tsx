@@ -8,7 +8,7 @@ import { motion, useInView } from "framer-motion"
 export function BehindThreadsSection() {
   const [displayText, setDisplayText] = useState("")
   const [isTyping, setIsTyping] = useState(true)
-  const fullText = "WELCOME TO 2.0 – NOT JUST A BRAND, BUT YOUR NEXT SKIN."
+  const fullText = "WELCOME TO 2.0 – progress over perfection"
 
   // Separate refs for desktop and mobile
   const descriptionRef = useRef(null)
@@ -120,7 +120,7 @@ export function BehindThreadsSection() {
       <h1 className="text-7xl md:text-[150px] font-medium tracking-tight text-[#84cecb] md:leading-[150px]">THREADS</h1>
 
       {/* Tagline with Typewriter Effect */}
-      <p className="mt-2 text-xs md:text-xl md:leading-6 tracking-widest font-medium text-white/90 min-h-[1.5rem]">
+      <p className="mt-2 text-xs md:text-xl md:leading-6 uppercase tracking-widest font-medium text-white/90 min-h-[1.5rem]">
         {renderText(displayText)}
         <span className="animate-pulse ml-1">|</span>
       </p>

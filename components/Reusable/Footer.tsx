@@ -53,7 +53,7 @@ export function FooterSection() {
           <div className="grid grid-cols-1 text-center gap-7 md:text-left md:grid-cols-4 md:gap-12 lg:gap-16 text-sm mt-14 md:mt-0">
             <div>
               <h4 className="text-[#84cecb] font-[400] text-lg mb-5 tracking-wide">BORING STUFF</h4>
-              <ul className="space-y-4 text-sm font-light">
+              <ul className="space-y-4 text-sm font-light capitalize">
                 <li>
                   <Link href={"https://shop.twopointzeroclothing.com/apps/tracktor/track"} target="_blank" className="hover:text-[#84cecb] transition-colors cursor-pointer block">track order</Link>
                 </li>
@@ -65,7 +65,7 @@ export function FooterSection() {
 
             <div>
               <h4 className="text-[#84cecb] font-[400] text-lg mb-5 tracking-wide">LEGAL</h4>
-              <ul className="space-y-4 text-sm font-light">
+              <ul className="space-y-4 text-sm font-light capitalize">
                 <li>
                   <Link href={"https://shop.twopointzeroclothing.com/policies/terms-of-service"} target="_blank" className="hover:text-[#84cecb] transition-colors cursor-pointer block">terms and conditions</Link>
                 </li>
@@ -85,20 +85,18 @@ export function FooterSection() {
               <h4 className="text-[#84cecb] font-[400] text-lg mb-5 tracking-wide">LET&apos;S CONNECT</h4>
               <ul className="space-y-4 text-sm font-light">
                 <li>
-                  <Link href={""} target="_blank" className="hover:text-[#84cecb] transition-colors cursor-pointer block">whatsapp</Link>
+                  <Link href={"https://shop.twopointzeroclothing.com/pages/contact"} target="_blank" className="hover:text-[#84cecb] transition-colors cursor-pointer block">Contact Us </Link>
                 </li>
                 <li>
-                  <Link href={""} target="_blank" className="hover:text-[#84cecb] transition-colors cursor-pointer block">email</Link>
+                <Link href={"mailto:help.twopointzeroclothing@gmail.com"} target="_blank" className="hover:text-[#84cecb] transition-colors cursor-pointer block">Support</Link>
                 </li>
-                <li>
-                  <Link href={"https://shop.twopointzeroclothing.com/pages/contact"} target="_blank" className="hover:text-[#84cecb] transition-colors cursor-pointer block">contact us</Link>
-                </li>
+              
               </ul>
             </div>
 
             <div>
               <h4 className="text-[#84cecb] font-[400] text-lg mb-5 tracking-wide">STORE LOCATOR</h4>
-              <ul className="space-y-4 text-sm font-light">
+              <ul className="space-y-4 text-sm font-light capitalize">
                 <li>
                   <Link href={""} target="_blank" className="hover:text-[#84cecb] transition-colors cursor-pointer block">mumbai</Link>
                 </li>

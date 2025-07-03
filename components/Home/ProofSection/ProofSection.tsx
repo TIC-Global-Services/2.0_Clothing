@@ -392,9 +392,9 @@ export function ProofSection() {
           {/* PROOF THE DRIP SPEAKS FOR ITSELF. */}
           proof that progress is not easy
         </h2>
-        <p className="text-white font-medium md:leading-6 text-[10px] md:text-xl mb-14">
-          YOU WORE IT. THEY NOTICED. <br />
-          THIS WALL&apos;S FOR THE LOUD LOOKS AND LOUDER REACTIONS.
+        <p className="text-white font-medium md:leading-6 text-[10px] md:text-xl mb-14 uppercase">
+        They doubted. They mocked <br />
+        They said we&apos;d never make it. But every harsh word became a lesson. Every failure, a foundation. Remember when you fell learning to ride? Or stumbled through your first step, first fight, first dream? You didn&apos;t stop. Neither did we. We&apos;re not here to be perfect — wer&apos;e here to grow, evolve, and rise. This wall isn&apos;t just filled with criticism. It&apos;s filled with proof that we&apos;re not afraid to begin, to mess up, to try again. Because progress? That&apos;s the loudest thing we wear.
         </p>
 
         <div className="flex flex-col w-full md:flex-row justify-center md:px-7 gap-3">

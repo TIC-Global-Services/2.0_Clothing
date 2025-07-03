@@ -28,7 +28,7 @@ const PRODUCT_IMAGES: ProductImage[] = [
   { id: 3, primaryImage: TShirtImg3, secondaryImage: TShirtImg33, alt: "TShirtImg3" },
   { id: 4, primaryImage: TShirtImg4, secondaryImage: TShirtImg44, alt: "TShirtImg4" },
   { id: 5, primaryImage: TShirtImg5, secondaryImage: TShirtImg55, alt: "TShirtImg5" },
-  { id: 6, primaryImage: TShirtImg6, secondaryImage: TShirtImg66, alt: "TShirtImg6" },
+  // { id: 6, primaryImage: TShirtImg6, secondaryImage: TShirtImg66, alt: "TShirtImg6" },
 ]
 
 // Create a separate component for each product item
@@ -139,7 +139,7 @@ export function LatestDropSection() {
           animate={{ opacity: discoverInView ? 1 : 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          <Link href="/shop" passHref>
+          <Link href="https://shop.twopointzeroclothing.com/collections/all" passHref>
             <motion.div
               className="inline-flex items-start md:gap-[-80px] text-sm tracking-wider text-white hover:text-[#84cecb] transition-colors cursor-pointer"
               animate={discoverAnimated ? { x: 10 } : { x: 0 }}
