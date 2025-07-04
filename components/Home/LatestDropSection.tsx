@@ -9,7 +9,7 @@ import { useInView } from "react-intersection-observer"
 import {
   TShirtImg1, TShirtImg11, TShirtImg2, TShirtImg22,
   TShirtImg3, TShirtImg33, TShirtImg4, TShirtImg44,
-  TShirtImg5, TShirtImg55, TShirtImg6, TShirtImg66
+  TShirtImg5, TShirtImg55, 
 } from "@/assets/LatestDrop"
 
 import { DoubleArrowIcon } from "@/assets/HomeIcons"
